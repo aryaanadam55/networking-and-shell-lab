@@ -1,0 +1,21 @@
+[mca@localhost ~]$ ls
+Desktop  Documents  Downloads  Music  Pictures  Public  Templates  Videos
+[mca@localhost ~]$ cd Desktop
+[mca@localhost Desktop]$ mkdir NewDir
+mkdir: cannot create directory ‘NewDir’: File exists
+[mca@localhost Desktop]$ mkdir NewDirectory
+[mca@localhost Desktop]$ cd NewDirectory
+[mca@localhost NewDirectory]$ mkdir MESCE
+[mca@localhost NewDirectory]$ cd MESCE
+[mca@localhost MESCE]$ touch s3.txt
+[mca@localhost MESCE]$ expr 5 + 4
+9
+[mca@localhost MESCE]$ pwd
+/home/mca/Desktop/NewDirectory/MESCE
+[mca@localhost MESCE]$ expr 5 * 4
+expr: syntax error: unexpected argument ‘s3.txt’
+[mca@localhost MESCE]$ touch s4.txt
+[mca@localhost MESCE]$ expr 5 * 4
+expr: syntax error: unexpected argument ‘s3.txt’
+[mca@localhost MESCE]$ 
+
